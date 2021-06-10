@@ -1,0 +1,122 @@
+.footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer .container {
+  display: flex;
+  align-items: baseline;
+}
+
+.logo-studio-footer {
+  color: white;
+}
+
+.logo-footer {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  display: block;
+  margin-bottom: 20px;
+  color: var(--accent-color);
+}
+
+.description-address {
+  font-style: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--color-additional);
+  margin-bottom: 9px;
+}
+
+.footer-mail {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 9px;
+}
+
+.footer-tel {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--dominante-color);
+}
+
+.footer-mail:hover,
+.footer-tel:focus {
+  color: var(--dominante-color);
+}
+
+.footer-list:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer-mail,
+.footer-tel {
+  display: block;
+}
+
+.footer-social-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.footer-social-list-link {
+  display: inline-flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  color: var(--color-additional);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-social-list-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--color-additional);
+}
+
+.title-social {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin: 0;
+  color: var(--color-additional);
+}
+
+.footer-social {
+  margin-left: 70px;
+}
+
+.footer-social-list-link:hover,
+.footer-social-list-link:focus {
+  background-color: var(--accent-color);
+}
+
+.address {
+  font-style: normal;
+}
