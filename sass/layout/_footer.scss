@@ -2,11 +2,11 @@
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
-}
 
-.footer .container {
-  display: flex;
-  align-items: baseline;
+  .container {
+    display: flex;
+    align-items: baseline;
+  }
 }
 
 .logo-studio-footer {
@@ -40,6 +40,12 @@
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 9px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--dominante-color);
+  }
 }
 
 .footer-tel {
@@ -47,16 +53,12 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-.footer-tel:hover,
-.footer-tel:focus {
-  color: var(--dominante-color);
-}
-
-.footer-mail:hover,
-.footer-tel:focus {
-  color: var(--dominante-color);
+  &:hover,
+  &:focus {
+    color: var(--dominante-color);
+  }
 }
 
 .footer-list:not(:last-child) {
@@ -85,6 +87,11 @@
   border-radius: 50%;
   color: var(--color-additional);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
 
 .footer-social-list-item:not(:last-child) {
@@ -110,11 +117,6 @@
 
 .footer-social {
   margin-left: 70px;
-}
-
-.footer-social-list-link:hover,
-.footer-social-list-link:focus {
-  background-color: var(--accent-color);
 }
 
 .address {
