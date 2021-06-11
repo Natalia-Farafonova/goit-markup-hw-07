@@ -9,11 +9,11 @@
   }
 }
 
-.logo-studio-footer {
+.footer__studio {
   color: white;
 }
 
-.logo-footer {
+.footer__logo {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
@@ -24,7 +24,7 @@
   color: var(--accent-color);
 }
 
-.description-address {
+.footer__description {
   font-style: 400;
   font-style: normal;
   font-size: 14px;
@@ -34,7 +34,7 @@
   margin-bottom: 9px;
 }
 
-.footer-mail {
+.footer__mail {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -48,7 +48,7 @@
   }
 }
 
-.footer-tel {
+.footer__tel {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -61,23 +61,23 @@
   }
 }
 
-.footer-list:not(:last-child) {
+.footer__list:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.footer-mail,
-.footer-tel {
+.footer__mail,
+.footer__tel {
   display: block;
 }
 
-.footer-social-list {
+.scroll__list {
   display: flex;
   justify-content: space-between;
   padding: 0;
   margin-top: 20px;
 }
 
-.footer-social-list-link {
+.scroll__link {
   display: inline-flex;
   width: 44px;
   height: 44px;
@@ -94,17 +94,17 @@
   }
 }
 
-.footer-social-list-item:not(:last-child) {
+.scroll__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.footer-social-list-icon {
+.scroll__icon {
   width: 20px;
   height: 20px;
   fill: var(--color-additional);
 }
 
-.title-social {
+.scroll__title {
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 14px;
@@ -115,10 +115,10 @@
   color: var(--color-additional);
 }
 
-.footer-social {
+.scroll {
   margin-left: 70px;
 }
 
-.address {
+.footer__address {
   font-style: normal;
 }

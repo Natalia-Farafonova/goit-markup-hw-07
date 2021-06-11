@@ -1,11 +1,11 @@
-.title-project {
+.project__title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-color);
 }
 
-.description-project {
+.project__description {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -18,7 +18,7 @@
   background: var(--color-additional);
 }
 
-.project-card {
+.project__card {
   padding: 20px 24px;
   border-top: none;
   border: 1px solid #eeeeee;
@@ -31,25 +31,25 @@
   margin-top: -30px;
 }
 
-.project-list {
+.project__list {
   flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
   margin-top: 30px;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.overlay-text {
+.project__text {
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
 }
 
-.project-overlay {
+.project__overlay {
   position: relative;
   overflow: hidden;
 }
 
-.overlay-portfolio {
+.project__overlap {
   position: absolute;
   top: 0;
   left: 0;
@@ -62,13 +62,13 @@
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  .general-project:hover &,
-  .general-project:focus & {
+  .project__link:hover &,
+  .project__link:focus & {
     transform: translateY(0);
   }
 }
 
-.general-project {
+.project__link {
   display: block;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);

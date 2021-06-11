@@ -3,7 +3,7 @@
   justify-content: space-between;
 }
 
-.social-list-link {
+.social-list__link {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -22,14 +22,14 @@
   }
 }
 
-.social-list-icon {
+.social-list__icon {
   height: 20px;
   width: 20px;
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  .social-list-link:hover &,
-  .social-list-link:focus & {
+  .social-list__link:hover &,
+  .social-list__link:focus & {
     fill: var(--color-additional);
   }
 }

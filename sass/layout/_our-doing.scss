@@ -1,18 +1,18 @@
-.doing-conteiner {
+.services__list {
   display: flex;
   align-items: center;
   mix-blend-mode: normal;
   flex-basis: calc((100% - 90px) / 3);
 }
 
-.services-item:not(:last-child) {
+.services__item:not(:last-child) {
   margin-right: 30px;
 }
-.services-inscription {
+.services__inscription {
   position: relative;
 }
 
-.services-text {
+.services__text {
   position: absolute;
   right: 0;
   bottom: 0;
